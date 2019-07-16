@@ -1,0 +1,87 @@
+.jumbotron {
+	text-shadow: black 0.3em 0.3em 0.3em;
+	background-color: transparent;
+}
+
+ .col_1 {
+ 	background: transparent;
+ 	height: 1200px
+ }
+
+  .col_2 {
+ 	background: transparent;
+ 	height: 1200px
+ }
+
+  .col_3 {
+ 	background: transparent;
+ 	height: 1200px
+ }
+
+  .col_4 {
+ 	background: transparent;
+ 	height: 1200px
+ }
+
+#messageform{
+	padding: 30px 8%;
+}
+
+body {
+    background-color: #e4d6a3
+}
+textarea {
+	resize: none;
+	margin-bottom: 20px;
+}
+
+#slideout {
+	display: none;
+}
+
+#submit {
+	transition-duration: 0.2s;
+}
+
+#submit:hover {
+	background-color: gold;
+	color: black;
+	transform: scale(1.2) rotateY(360deg);
+}
+
+#container {
+	width: 100%;
+	height: 400px;
+	background-color: #ddd;
+	position: relative;
+}
+
+#block1, #block2 {
+	height: 200px;
+	width: 40%;
+	position: absolute;
+}
+
+#block1 {
+	background-color: pink;
+	z-index: 80;
+}
+
+#block2 {
+	background-color: navy;
+	z-index: 5;
+	top: 100px;
+	left: 5%;
+	transition-duration: 0.2s;
+}
+
+
+@media only screen and (max-width: 768px) { 
+
+	.navbar {
+		background-color: black;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
